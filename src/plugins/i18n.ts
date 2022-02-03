@@ -4,9 +4,10 @@ import viVNMessages from '../../locales/vi-VN.json';
 
 export type TMessageSchema = typeof enUSMessages;
 
-export enum LOCALE {}
+export type TLocale = 'en-US' | 'vi-VN';
 
-export const i18n = createI18n({
+export const i18n = createI18n<[TMessageSchema], TLocale>({
+  legacy: false,
   locale: localStorage.getItem('locale') ?? 'en-US',
   fallbackLocale: 'en-US',
   messages: {

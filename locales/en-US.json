@@ -1,1 +1,11 @@
-{ "hello": "hello" }
+{
+  "email": "Email",
+  "if_you_want_to_register_gopms_please_fill_out_the_registration_form_on_here": "If you want to register GoPMS, please fill out the registration form on here.",
+  "password": "Password",
+  "sign_in": "Sign in",
+  "something_went_wrong": "Something went wrong...",
+  "support": "Support",
+  "welcome_to_gopms": "Welcome to GoPMS!",
+  "wrong_credentials": "Wrong Credentials",
+  "you_can_manage_all_properties_easily with_the_most_convenient_system": "You can manage all properties easily with the most convenient system."
+}

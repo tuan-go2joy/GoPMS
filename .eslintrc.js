@@ -57,18 +57,6 @@ module.exports = {
         allowSingleExtends: true,
       },
     ],
-    'vue/attribute-hyphenation': [
-      // Don't use hyphenated name but allow custom attributes
-      'error',
-      'never',
-      { ignore: ['custom-prop'] },
-    ],
-    'vue/v-on-event-hyphenation': [
-      //Don't use hyphenated name but allow custom event names
-      'error',
-      'never',
-      { autofix: false, ignore: ['custom-prop'] },
-    ],
-    'vue/multi-word-component-names': ['error', { ignores: ['index', 'default'] }],
+    'vue/multi-word-component-names': ['off'],
   },
 };

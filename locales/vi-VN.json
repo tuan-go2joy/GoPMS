@@ -1,1 +1,11 @@
-{ "hello": "__missing__" }
+{
+  "email": "__missing__",
+  "if_you_want_to_register_gopms_please_fill_out_the_registration_form_on_here": "__missing__",
+  "password": "__missing__",
+  "sign_in": "__missing__",
+  "something_went_wrong": "__missing__",
+  "support": "__missing__",
+  "welcome_to_gopms": "__missing__",
+  "wrong_credentials": "__missing__",
+  "you_can_manage_all_properties_easily with_the_most_convenient_system": "__missing__"
+}
