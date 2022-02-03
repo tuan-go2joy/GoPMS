@@ -24,3 +24,9 @@ export const PROD_API_URL = 'https://api.gopms.io';
 
 // Intro page address (production).
 export const INTRO_PAGE_URL = 'https://gopms.io';
+
+// =============================
+// Regular Expressions
+// =============================
+
+export const VN_TEL_REGEX = /^[0-9]{10}$/;
