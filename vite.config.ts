@@ -23,6 +23,5 @@ export default defineConfig({
         imports: [resolve(__dirname, 'src/assets/styles/variables.styl')]
       }
     }
-  },
-  base: '/test/'
+  }
 })
