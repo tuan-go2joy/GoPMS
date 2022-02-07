@@ -1,0 +1,5 @@
+import './auth'
+import './revenues'
+import './hotel-detail'
+import './my-booking'
+import './profile'

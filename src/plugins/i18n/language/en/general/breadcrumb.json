@@ -1,0 +1,17 @@
+{
+  "dashboard": "Dashboard",
+  "MyBooking" : "My Booking",
+  "HotelDetails": "Hotel Details",
+  "Revenues" : "Revenue",
+  "RevenuesDetail": "Revenue detail",
+  "myProfile": "My Profile",
+  "profile": "Profile",
+  "logout": "Log out",
+  "SearchBooking": "Search Booking",
+  "ForgotPassword": "Forgot Password",
+  "VerificationCode": "Verification Code",
+  "ChangePassword": "Change Password",
+  "Login": "Login",
+  "NotFound": "Page Not Found",
+  "BookingDetails": "Booking details"
+}

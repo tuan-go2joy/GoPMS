@@ -1,0 +1,12 @@
+{
+    "hotel_name": "Tên khách sạn",
+    "total_confirmed": "Tổng đã xác nhận",
+    "extra_fee": "Phụ thu",
+    "total_amount": "Tổng giá",
+    "discount": "Giảm giá",
+    "user_pay": "Người dùng trả",
+    "paid_in_advance": "Đã thanh toán",
+    "check_in_date": "Ngày checkin",
+    "booking_time": "Thời gian đặt phòng",
+    "booking_info": "Thông tin đặt phòng"
+}

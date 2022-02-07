@@ -1,0 +1,7 @@
+{
+    "enterPass": "Please enter your current password",
+    "enterNewPass": "Please enter your new password",
+    "enterConPass": "Please enter confirm password",
+    "formatPass": "Password must be 6~16 characters of English, numbers",
+    "confirmMatch": "New password and Confirm password do not match"
+}

@@ -1,0 +1,17 @@
+{
+  "dashboard": "Trang chủ",
+  "MyBooking" : "Đặt phòng",
+  "HotelDetails": "Chi tiết khách sạn",
+  "Revenues" : "Doanh thu",
+  "RevenuesDetail": "Chi tiết doanh thu",
+  "myProfile": "Hồ sơ",
+  "profile": "Hồ sơ",
+  "logout": "Đăng xuất",
+  "SearchBooking": "Tìm kiếm bằng mã",
+  "ForgotPassword": "Quên mật khẩu",
+  "VerificationCode": "Mã xác thực",
+  "ChangePassword": "Đổi mật khẩu",
+  "Login": "Đăng nhập",
+  "NotFound": "Không tìm thấy trang",
+  "BookingDetails": "Chi tiết đặt phòng"
+}

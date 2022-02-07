@@ -1,0 +1,13 @@
+{
+  "userID" : "User Id",
+  "full_name" : "Full name",
+  "mobile" : "Mobile",
+  "address" : "Address",
+  "email" : "Email",
+  "memo" : "Memo",
+  "current_password" : "Current password",
+  "new_password" : "New password",
+  "confirm_new_password" : "Confirm new password",
+  "pass_conform_required": "Password required",
+  "pass_conform_match" : "Password not matches"
+}
