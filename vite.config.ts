@@ -23,5 +23,6 @@ export default defineConfig({
         imports: [resolve(__dirname, 'src/assets/styles/variables.styl')]
       }
     }
-  }
+  },
+  base: 'https://tuan-go2joy.github.io/tuan-go2joy.github.io-deploy-hosting/'
 })

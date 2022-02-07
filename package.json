@@ -5,7 +5,7 @@
     "dev": "vite --mode development",
     "stag": "vue-tsc --noEmit && vite build --mode staging",
     "prod": "vue-tsc --noEmit && vite build --mode production",
-    "serve": "vite preview",
+    "serve": "vite preview --port 8080",
     "lint:script": "eslint --ext .ts,vue --ignore-path .gitignore ."
   },
   "dependencies": {
