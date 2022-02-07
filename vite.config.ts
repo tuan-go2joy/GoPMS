@@ -24,5 +24,5 @@ export default defineConfig({
       }
     }
   },
-  base: 'https://tuan-go2joy.github.io/test/'
+  base: '/test/'
 })
