@@ -2,7 +2,7 @@
 set -e
 
 # build
-npm run build
+yarn stag
 
 # navigate into the build output directory
 cd dist
