@@ -29,6 +29,8 @@ export default defineConfig({
     }),
     vueI18n({ include: 'locales/**' }),
   ],
+  // eslint-disable-next-line
+  // @ts-ignore
   test: {
     globals: true,
     environment: 'jsdom',
