@@ -4,7 +4,7 @@
   "scripts": {
     "prepare": "husky install && gitmoji -i",
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "vue-tsc --noEmit --skipLibCheck && vite build",
     "preview": "vite preview",
     "lint": "eslint --ext .js,.ts,.vue .",
     "extract-i18n": "tsnd --transpile-only scripts/extractI18n.ts && prettier --write locales",
