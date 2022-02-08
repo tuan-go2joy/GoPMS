@@ -4,9 +4,9 @@ import { useField } from 'vee-validate';
 import { computed } from 'vue';
 import { useRoute } from 'vue-router';
 import { z } from 'zod';
-import { useDeleteFloorMutation } from '~/api/rooms/useDeleteFloorMutation';
-import { useFloorsQuery } from '~/api/rooms/useFloorsQuery';
-import { useUpdateFloorMutation } from '~/api/rooms/useUpdateFloorMutation';
+import { useDeleteFloorMutation } from '../apis/useDeleteFloorMutation';
+import { useFloorsQuery } from '../apis/useFloorsQuery';
+import { useUpdateFloorMutation } from '../apis/useUpdateFloorMutation';
 import { useEditable } from '~/composables/useEditable';
 import { useI18n } from '~/composables/useI18n';
 import { useNotify } from '~/composables/useNotify';
@@ -99,6 +99,7 @@ const onClickRoom = (_: PointerEvent, room: IFloorProps__room) => {
   router.replace({
     path: `/settings/room-settings/rooms/${room.id}`,
     state: { roomName: room.name, floorId: props.floorId },
+    query: route.query,
   });
 };
 
@@ -106,6 +107,7 @@ const onClickAddRoom = () => {
   router.replace({
     path: `/settings/room-settings/rooms/new`,
     state: { roomName: null, floorId: props.floorId },
+    query: route.query,
   });
 };
 </script>

@@ -3,10 +3,10 @@ import { toFormValidator } from '@vee-validate/zod';
 import { useField, useForm } from 'vee-validate';
 import { computed } from 'vue';
 import { z, ZodEffects, ZodNumber, ZodObject, ZodString } from 'zod';
-import { useCreateRoomTypeMutation } from '~/api/rooms/useCreateRoomTypeMutation';
-import { useRoomTypeQuery } from '~/api/rooms/useRoomTypeQuery';
-import { useRoomTypesQuery } from '~/api/rooms/useRoomTypesQuery';
-import { useUpdateRoomTypeMutation } from '~/api/rooms/useUpdateRoomTypeMutation';
+import { useCreateRoomTypeMutation } from '../apis/useCreateRoomTypeMutation';
+import { useRoomTypeQuery } from '../apis/useRoomTypeQuery';
+import { useRoomTypesQuery } from '../apis/useRoomTypesQuery';
+import { useUpdateRoomTypeMutation } from '../apis/useUpdateRoomTypeMutation';
 import { useI18n } from '~/composables/useI18n';
 import { useNotify } from '~/composables/useNotify';
 

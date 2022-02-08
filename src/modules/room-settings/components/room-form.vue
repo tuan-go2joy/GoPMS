@@ -4,12 +4,12 @@ import { useField, useForm } from 'vee-validate';
 import { computed } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { z, ZodNumber, ZodObject, ZodString } from 'zod';
-import { useCreateRoomMutation } from '~/api/rooms/useCreateRoomMutation';
-import { useFloorsQuery } from '~/api/rooms/useFloorsQuery';
-import { useRoomQuery } from '~/api/rooms/useRoomQuery';
-import { useRoomsQuery } from '~/api/rooms/useRoomsQuery';
-import { useRoomTypesQuery } from '~/api/rooms/useRoomTypesQuery';
-import { useUpdateRoomMutation } from '~/api/rooms/useUpdateRoomMutation';
+import { useCreateRoomMutation } from '../apis/useCreateRoomMutation';
+import { useFloorsQuery } from '../apis/useFloorsQuery';
+import { useRoomQuery } from '../apis/useRoomQuery';
+import { useRoomsQuery } from '../apis/useRoomsQuery';
+import { useRoomTypesQuery } from '../apis/useRoomTypesQuery';
+import { useUpdateRoomMutation } from '../apis/useUpdateRoomMutation';
 import { useI18n } from '~/composables/useI18n';
 import { useNotify } from '~/composables/useNotify';
 
