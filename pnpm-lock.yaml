@@ -14,6 +14,7 @@ specifiers:
   '@vee-validate/zod': ^4.5.7
   '@vitejs/plugin-vue': ^2.0.0
   '@vue/test-utils': ^2.0.0-rc.18
+  '@vueuse/core': ^7.5.5
   '@withshepherd/faker': ^5.5.5
   axios: ^0.25.0
   chalk: ^4.1.2
@@ -53,6 +54,7 @@ specifiers:
 dependencies:
   '@quasar/extras': 1.12.4
   '@vee-validate/zod': 4.5.7_vee-validate@4.5.8+zod@3.11.6
+  '@vueuse/core': 7.5.5_vue@3.2.29
   axios: 0.25.0
   quasar: 2.4.13
   vee-validate: 4.5.8_vue@3.2.29
@@ -919,6 +921,37 @@ packages:
     dependencies:
       vue: 3.2.29
     dev: true
+
+  /@vueuse/core/7.5.5_vue@3.2.29:
+    resolution: {integrity: sha512-RBDqmIoGfak4h3xdXa/Av+ibkb8NY044wEy6+PG2FAWNaID8/FkqmSFjbxogrbmpSX1yZ1PBHrM8DUp/FrIpbg==}
+    peerDependencies:
+      '@vue/composition-api': ^1.1.0
+      vue: ^2.6.0 || ^3.2.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+      vue:
+        optional: true
+    dependencies:
+      '@vueuse/shared': 7.5.5_vue@3.2.29
+      vue: 3.2.29
+      vue-demi: 0.10.1_vue@3.2.29
+    dev: false
+
+  /@vueuse/shared/7.5.5_vue@3.2.29:
+    resolution: {integrity: sha512-mzzTsotHQRPnPAChy8iCv6ek/90CKYhAFyMRgNsMxpT0afZJkbMO/X0OaOu/1NuGbgb8UVjlsWKmCUgKTOF5hA==}
+    peerDependencies:
+      '@vue/composition-api': ^1.1.0
+      vue: ^2.6.0 || ^3.2.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+      vue:
+        optional: true
+    dependencies:
+      vue: 3.2.29
+      vue-demi: 0.10.1_vue@3.2.29
+    dev: false
 
   /@withshepherd/faker/5.5.5:
     resolution: {integrity: sha512-JgWi87zb13lrQxBc4A5my60mrZhGFgB6ixaQ1Tz2CBt5eg/6FahQiDFouI/IAW3TtX/Xeoj23AsiehQaUYddcw==}
