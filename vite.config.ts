@@ -6,6 +6,7 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
 const pathSrc = resolve(__dirname, "src")
 export default defineConfig({
+  base: '/test/',
   plugins: [
     vue(),
     Components({
