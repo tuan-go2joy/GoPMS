@@ -57,7 +57,7 @@ const settingLinks = computed(() => [
         <q-btn-dropdown label="Menu" stretch flat color="orange-9">
           <q-list>
             <q-item-label header>{{ userData?.extra.name }}</q-item-label>
-            <q-item v-close-popup clickable to="/my-account">
+            <q-item v-close-popup clickable to="/profile/my-account">
               <q-item-section>{{ t('my_account') }}</q-item-section>
             </q-item>
             <q-separator />

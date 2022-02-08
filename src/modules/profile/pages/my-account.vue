@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import MeForm from '~/components/forms/me-form.vue';
-import ChangePasswordForm from '~/components/forms/change-password-form.vue';
+import MeForm from '../components/me-form.vue';
+import ChangePasswordForm from '../components/change-password-form.vue';
 import { useI18n } from '~/composables/useI18n';
 
 const { t } = useI18n();

@@ -4,7 +4,7 @@ import { useQuasar } from 'quasar';
 import { useField, useForm } from 'vee-validate';
 import { ref } from 'vue';
 import { z, ZodObject, ZodString } from 'zod';
-import { useUpdatePasswordMutation } from '~/api/accounts/useUpdatePasswordMutation';
+import { useUpdatePasswordMutation } from '../apis/useUpdatePasswordMutation';
 import { useI18n } from '~/composables/useI18n';
 
 type TSchema = {
