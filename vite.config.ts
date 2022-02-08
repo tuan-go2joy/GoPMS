@@ -15,7 +15,14 @@ export default defineConfig({
   },
   plugins: [
     vue({ template: { transformAssetUrls } }),
-    Pages(),
+    Pages({
+      dirs: [
+        { dir: 'src/pages', baseRoute: '' },
+        { dir: 'src/modules/auth/pages', baseRoute: 'auth' },
+        { dir: 'src/modules/profile/pages', baseRoute: 'profile' },
+        { dir: 'src/modules/room-settings/pages', baseRoute: 'settings/room-settings' },
+      ],
+    }),
     Layouts(),
     quasar({
       sassVariables: 'src/styles/quasar-variables.sass',
