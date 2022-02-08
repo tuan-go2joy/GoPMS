@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import SignInForm from '~/components/forms/sign-in-form.vue';
+import SignInForm from '../components/sign-in-form.vue';
 import FlagUK from '~/components/icons/flag-UK.vue';
 import FlagVN from '~/components/icons/flag-VN.vue';
 import { useI18n } from '~/composables/useI18n';

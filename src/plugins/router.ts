@@ -15,14 +15,14 @@ router.beforeEach((to, from, next) => {
 
   switch (isLoggedIn.value) {
     case true:
-      if (to.path === '/sign-in') {
+      if (to.path === '/auth/sign-in') {
         router.replace('/');
         return;
       }
       return next();
     case false:
-      if (to.path !== '/sign-in') {
-        router.replace('/sign-in');
+      if (to.path !== '/auth/sign-in') {
+        router.replace('/auth/sign-in');
         return;
       }
       return next();

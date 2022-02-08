@@ -4,7 +4,7 @@ import { useQuasar } from 'quasar';
 import { useField, useForm } from 'vee-validate';
 import { useRouter } from 'vue-router';
 import { z, ZodObject, ZodString } from 'zod';
-import { useSigninMutation } from '~/api/authentication/useSigninMutation';
+import { useSigninMutation } from '../apis/useSigninMutation';
 import { useAuth } from '~/composables/useAuth';
 import { useI18n } from '~/composables/useI18n';
 

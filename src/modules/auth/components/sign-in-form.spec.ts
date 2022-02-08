@@ -5,7 +5,7 @@ import { setupServer } from 'msw/node';
 import { Quasar } from 'quasar';
 import { afterAll, afterEach, beforeAll, beforeEach, describe, expect, it } from 'vitest';
 import { VueQueryPlugin } from 'vue-query';
-import { ISigninMutationVariables } from '~/api/authentication/useSigninMutation';
+import { ISigninMutationVariables } from '~/modules/auth/apis/useSigninMutation';
 import { DEV_API_URL } from '~/constants';
 import { i18n } from '~/plugins/i18n';
 import { quasarOptions } from '~/plugins/quasar';
