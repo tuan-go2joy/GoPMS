@@ -6,7 +6,7 @@ import { axiosClient } from '~/api/axiosClient';
 import { QUERY_KEY } from '~/api/queryKeys';
 import { useAuth } from '~/composables/useAuth';
 import { LS_ACCESS_TOKEN, LS_REFRESH_TOKEN, LS_USER_ID } from '~/constants';
-import { ISigninMutationResData__extra } from './useSigninMutation';
+import { ISigninMutationResData__extra } from '~/modules/auth/apis/useSigninMutation';
 
 //===================================
 // Interfaces
