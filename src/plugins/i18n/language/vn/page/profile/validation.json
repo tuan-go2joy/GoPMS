@@ -1,7 +1,0 @@
-{
-    "enterPass": "Nhập mật khẩu hiện tại của bạn",
-    "enterNewPass": "Nhập mật khẩu mới của bạn",
-    "enterConPass": "Nhập lại mật khẩu",
-    "formatPass": "Mật khẩu phải từ 6 đến 16 ký tự bao gồm chữ và số ",
-    "confirmMatch": "Mật khẩu mới và xác nhận mật khẩu không khớp"
-}
