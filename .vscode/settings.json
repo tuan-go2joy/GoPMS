@@ -1,9 +1,0 @@
-{
-  // -------- VSCode Settings --------
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-
-  // -------- Volar Settings --------
-  "volar.takeOverMode.enabled": true,
-  "i18n-ally.localesPaths": ["locales"]
-}
